@@ -4,7 +4,7 @@ import pytesseract as pt
 import os
 import time
 import logging
-logging.basicConfig(format='%(asctime)s | %(levelname)s: %(message)s', level=logging.INFO)
+logging.basicConfig(handlers=[logging.FileHandler("ocr_directory.log"), logging.StreamHandler()], format='%(asctime)s | %(levelname)s: %(message)s', level=logging.INFO)
 
 # Setting paths:
 # tesseract_path is the location where tesseract.exe is installed
