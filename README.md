@@ -1,0 +1,1 @@
+# Auto-OCR-Screenshot-Directory
