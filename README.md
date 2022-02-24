@@ -10,5 +10,6 @@ I have a huge directory of almost 20,000 screenshots I've taken over the years, 
 
 The script will automatically skip files it has OCR'd before, which makes it easy to set to run on a schedule to periodically update your screenshots folder.  I have a scheduled task set up to run this script every night.
 
-* ocr_directory.py is the main file
+* ocr_directory.py is the main file.
 * setup.py is a py2exe config file I wrote for generating an .exe to use with scheduled tasks/crontab.
+* [Google Tesseract](https://github.com/tesseract-ocr/tesseract) is required for this script to run.  If you don't install it to the default location, change the path defined for the tesseract.exe file.
